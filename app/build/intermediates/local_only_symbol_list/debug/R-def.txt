@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id card_view
+id progressBar
+id rvUser
+id searchBar
+id searchView
+id tvUsername
+id userPhoto
+layout activity_main
+layout item_row_user
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string name
+string searchbar_hint
+string this_activity
+style Base.Theme.GitHubUser
+style Theme.GitHubUser
+xml backup_rules
+xml data_extraction_rules
