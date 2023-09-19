@@ -4,11 +4,15 @@
         "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-39:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-mergeDebugResources-36:\\layout\\item_row_user.xml",
-        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-39:\\layout\\item_row_user.xml"
+        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-mergeDebugResources-36:\\layout\\activity_detail.xml",
+        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-39:\\layout\\activity_detail.xml"
     },
     {
-        "merged": "com.ophi.githubuser.app-mergeDebugResources-36:/layout/activity_main.xml",
-        "source": "com.ophi.githubuser.app-main-39:/layout/activity_main.xml"
+        "merged": "com.ophi.githubuser.app-mergeDebugResources-36:/layout/activity_detail.xml",
+        "source": "com.ophi.githubuser.app-main-39:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-mergeDebugResources-36:\\layout\\item_row_user.xml",
+        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-39:\\layout\\item_row_user.xml"
     }
 ]

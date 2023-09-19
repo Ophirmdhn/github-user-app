@@ -1,6 +1,7 @@
 package com.ophi.githubuser.data.retrofit
 
 import com.ophi.githubuser.BuildConfig
+import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -15,8 +16,17 @@ class ApiConfig {
                 HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.NONE)
             }
 
+            val authInterceptor = Interceptor {chain ->
+                val req = chain.request()
+                val requestHeaders = req.newBuilder()
+                    .addHeader("Authorization", "Token")
+                    .build()
+                chain.proceed(requestHeaders)
+            }
+
             val client = OkHttpClient.Builder()
                 .addInterceptor(loggingInterceptor)
+                .addInterceptor(authInterceptor)
                 .build()
 
             val retrofit = Retrofit.Builder()
