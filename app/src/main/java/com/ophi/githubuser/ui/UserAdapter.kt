@@ -1,5 +1,6 @@
 package com.ophi.githubuser.ui
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
@@ -14,9 +15,9 @@ class UserAdapter: ListAdapter<ItemsItem, UserAdapter.MyViewHolder>(DIFF_CALLBAC
     class MyViewHolder(private val binding: ItemRowUserBinding): RecyclerView.ViewHolder(binding.root) {
         fun bind(username: ItemsItem) {
             Glide.with(binding.root.context)
-                .load("${username.avatarUrl}")
+                .load(username.avatarUrl)
                 .into(binding.userPhoto)
-            binding.tvUsername.text = "${username.login}"
+            binding.tvUsername.text = username.login
         }
     }
 
@@ -28,6 +29,12 @@ class UserAdapter: ListAdapter<ItemsItem, UserAdapter.MyViewHolder>(DIFF_CALLBAC
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val user = getItem(position)
         holder.bind(user)
+
+        holder.itemView.setOnClickListener {
+            val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
+            intentDetail.putExtra("extra_username", user.login)
+            holder.itemView.context.startActivity(intentDetail)
+        }
     }
 
     companion object {

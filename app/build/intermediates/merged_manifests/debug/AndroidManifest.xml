@@ -30,6 +30,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.GitHubUser" >
         <activity
+            android:name="com.ophi.githubuser.ui.DetailActivity"
+            android:exported="false" />
+        <activity
             android:name="com.ophi.githubuser.ui.MenuActivity"
             android:exported="false" />
         <activity

@@ -44,6 +44,10 @@
         "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-39:\\xml\\backup_rules.xml"
     },
     {
+        "merged": "com.ophi.githubuser.app-merged_res-37:/layout_activity_detail.xml.flat",
+        "source": "com.ophi.githubuser.app-main-39:/layout/activity_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-37:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-39:\\mipmap-mdpi\\ic_launcher.webp"
     },
@@ -60,6 +64,10 @@
         "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-39:\\drawable\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-37:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-39:\\layout\\activity_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -70,9 +78,5 @@
     {
         "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-37:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-39:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.ophi.githubuser.app-merged_res-37:/layout_activity_main.xml.flat",
-        "source": "com.ophi.githubuser.app-main-39:/layout/activity_main.xml"
     }
 ]
