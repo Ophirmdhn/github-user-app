@@ -20,9 +20,6 @@ class MainViewModel: ViewModel() {
     private val _isLoading = MutableLiveData<Boolean>()
     val isLoading: LiveData<Boolean> = _isLoading
 
-//    private val _isEmpty = MutableLiveData<Boolean>()
-//    val isEmpty: LiveData<Boolean> = _isEmpty
-
     companion object {
         private const val TAG = "MainViewModel"
     }
@@ -40,8 +37,6 @@ class MainViewModel: ViewModel() {
             ) {
                 _isLoading.value = false
                 if (response.isSuccessful) {
-//                    val totalCount = response.body()?.totalCount!!
-//                    _isEmpty.value = totalCount <= 0
                     _listUser.value = response.body()?.items
                     Log.d("findUser", "onCreate: ${response.body()}")
                 } else {
