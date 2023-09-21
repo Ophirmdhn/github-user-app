@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.ophi.githubuser.app-mergeDebugResources-35:/values-pa/values-pa.xml",
+            "outputFile": "com.ophi.githubuser.app-mergeDebugResources-37:/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ophir\\.gradle\\caches\\transforms-3\\26c911d3cf93a7c0e4fcf2c49b0a758c\\transformed\\appcompat-1.6.1\\res\\values-pa\\values-pa.xml",

@@ -3,12 +3,13 @@ package com.ophi.githubuser.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.ophi.githubuser.adapter.UserAdapter
 import com.ophi.githubuser.data.response.ItemsItem
 import com.ophi.githubuser.databinding.ActivityMainBinding
+import com.ophi.githubuser.model.MainViewModel
 
 class MainActivity : AppCompatActivity() {
 
@@ -37,7 +38,6 @@ class MainActivity : AppCompatActivity() {
         val itemDecoration = DividerItemDecoration(this, layoutManager.orientation)
         binding.rvUser.addItemDecoration(itemDecoration)
 
-        //appBar
         with(binding) {
             searchView.setupWithSearchBar(searchBar)
             searchView
@@ -57,11 +57,5 @@ class MainActivity : AppCompatActivity() {
         binding.rvUser.adapter = adapter
     }
 
-    private fun showLoading(isLoading: Boolean) {
-        if (isLoading) {
-            binding.progressBar.visibility = View.VISIBLE
-        } else {
-            binding.progressBar.visibility = View.GONE
-        }
-    }
+    private fun showLoading(state: Boolean) { binding.progressBar.visibility = if (state) View.VISIBLE else View.GONE }
 }

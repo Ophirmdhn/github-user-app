@@ -1967,6 +1967,7 @@
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="logo_github">Logo Github</string>
     <string name="m3_ref_typeface_brand_medium" translatable="false">sans-serif-medium</string>
     <string name="m3_ref_typeface_brand_regular" translatable="false">sans-serif</string>
     <string name="m3_ref_typeface_plain_medium" translatable="false">sans-serif-medium</string>
@@ -2088,8 +2089,12 @@
     <string description="Title of the side sheet&apos;s accessibility pane that is spoken by TalkBack when the side sheet appears on screen. [CHAR_LIMIT=NONE]" name="side_sheet_accessibility_pane_title">Side Sheet</string>
     <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
     <string name="this_activity">Menu Activity</string>
     <string name="total">123</string>
+    <string name="total_followers">Followers %d</string>
+    <string name="total_following">Following %d</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -2436,8 +2441,7 @@
     </style>
     <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="Theme.AppCompat.Light"/>
     <style name="Base.Theme.GitHubUser" parent="Theme.Material3.DayNight.NoActionBar">
-        
-        
+         <item name="colorPrimary">#850404</item>
     </style>
     <style name="Base.Theme.Material3.Dark" parent="Base.V14.Theme.Material3.Dark"/>
     <style name="Base.Theme.Material3.Dark.BottomSheetDialog" parent="Base.V14.Theme.Material3.Dark.BottomSheetDialog"/>

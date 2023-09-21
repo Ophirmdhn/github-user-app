@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.ophi.githubuser.app-mergeDebugResources-35:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.ophi.githubuser.app-mergeDebugResources-37:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ophir\\.gradle\\caches\\transforms-3\\3c11ddf1f1ffbda5ee4d54edb6c4ee68\\transformed\\core-1.9.0\\res\\values-en-rCA\\values-en-rCA.xml",
