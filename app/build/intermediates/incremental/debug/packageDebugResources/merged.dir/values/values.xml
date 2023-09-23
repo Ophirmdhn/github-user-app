@@ -7,13 +7,17 @@
     <string name="followers">123 Followers</string>
     <string name="following">123 Following</string>
     <string name="full_name">Full Name</string>
+    <string name="logo_github">Logo Github</string>
     <string name="name">Username</string>
     <string name="searchbar_hint">Cari pengguna</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
     <string name="this_activity">Menu Activity</string>
     <string name="total">123</string>
+    <string name="total_followers">Followers %d</string>
+    <string name="total_following">Following %d</string>
     <style name="Base.Theme.GitHubUser" parent="Theme.Material3.DayNight.NoActionBar">
-        
-        
+         <item name="colorPrimary">#850404</item>
     </style>
     <style name="Theme.GitHubUser" parent="Base.Theme.GitHubUser"/>
 </resources>

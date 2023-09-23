@@ -11,6 +11,8 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import androidx.viewpager2.widget.ViewPager2;
+import com.google.android.material.tabs.TabLayout;
 import com.ophi.githubuser.R;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
@@ -28,6 +30,9 @@ public final class ActivityDetailBinding implements ViewBinding {
   public final ProgressBar progressBar;
 
   @NonNull
+  public final TabLayout tabs;
+
+  @NonNull
   public final TextView tvDetailUsername;
 
   @NonNull
@@ -39,17 +44,22 @@ public final class ActivityDetailBinding implements ViewBinding {
   @NonNull
   public final TextView tvFullname;
 
+  @NonNull
+  public final ViewPager2 viewPager;
+
   private ActivityDetailBinding(@NonNull ConstraintLayout rootView,
       @NonNull CircleImageView detailUserPhoto, @NonNull ProgressBar progressBar,
-      @NonNull TextView tvDetailUsername, @NonNull TextView tvFollowers,
-      @NonNull TextView tvFollowing, @NonNull TextView tvFullname) {
+      @NonNull TabLayout tabs, @NonNull TextView tvDetailUsername, @NonNull TextView tvFollowers,
+      @NonNull TextView tvFollowing, @NonNull TextView tvFullname, @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
     this.detailUserPhoto = detailUserPhoto;
     this.progressBar = progressBar;
+    this.tabs = tabs;
     this.tvDetailUsername = tvDetailUsername;
     this.tvFollowers = tvFollowers;
     this.tvFollowing = tvFollowing;
     this.tvFullname = tvFullname;
+    this.viewPager = viewPager;
   }
 
   @Override
@@ -91,6 +101,12 @@ public final class ActivityDetailBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tabs;
+      TabLayout tabs = ViewBindings.findChildViewById(rootView, id);
+      if (tabs == null) {
+        break missingId;
+      }
+
       id = R.id.tvDetailUsername;
       TextView tvDetailUsername = ViewBindings.findChildViewById(rootView, id);
       if (tvDetailUsername == null) {
@@ -115,8 +131,14 @@ public final class ActivityDetailBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.viewPager;
+      ViewPager2 viewPager = ViewBindings.findChildViewById(rootView, id);
+      if (viewPager == null) {
+        break missingId;
+      }
+
       return new ActivityDetailBinding((ConstraintLayout) rootView, detailUserPhoto, progressBar,
-          tvDetailUsername, tvFollowers, tvFollowing, tvFullname);
+          tabs, tvDetailUsername, tvFollowers, tvFollowing, tvFullname, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

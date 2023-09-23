@@ -2932,6 +2932,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable logo_app
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3247,6 +3248,7 @@ id line3
 id linear
 id listMode
 id list_item
+id logo_app
 id m3_side_sheet
 id marquee
 id masked
@@ -3347,6 +3349,7 @@ id position
 id postLayout
 id pressed
 id progressBar
+id progressBar3
 id progress_circular
 id progress_horizontal
 id radio
@@ -3360,6 +3363,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvFollowers
 id rvUser
 id save_non_transition_alpha
 id save_overlay_view
@@ -3439,6 +3443,7 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id tabMode
+id tabs
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -3496,6 +3501,7 @@ id up
 id useLogo
 id userPhoto
 id vertical_only
+id viewPager
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3628,6 +3634,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_detail
 layout activity_main
+layout activity_splash_screen
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3644,6 +3651,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_follow
 layout item_row_user
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3761,6 +3769,7 @@ string full_name
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string logo_github
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
 string m3_ref_typeface_plain_medium
@@ -3874,8 +3883,12 @@ string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string tab_text_1
+string tab_text_2
 string this_activity
 string total
+string total_followers
+string total_following
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
