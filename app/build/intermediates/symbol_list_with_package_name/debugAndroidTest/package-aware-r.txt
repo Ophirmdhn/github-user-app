@@ -1,3 +1,0 @@
-com.ophi.githubuser.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
