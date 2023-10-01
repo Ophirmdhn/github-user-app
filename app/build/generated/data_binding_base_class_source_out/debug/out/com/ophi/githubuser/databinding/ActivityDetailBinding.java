@@ -12,6 +12,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import androidx.viewpager2.widget.ViewPager2;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
 import com.ophi.githubuser.R;
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -25,6 +26,9 @@ public final class ActivityDetailBinding implements ViewBinding {
 
   @NonNull
   public final CircleImageView detailUserPhoto;
+
+  @NonNull
+  public final FloatingActionButton fabFavorite;
 
   @NonNull
   public final ProgressBar progressBar;
@@ -48,11 +52,13 @@ public final class ActivityDetailBinding implements ViewBinding {
   public final ViewPager2 viewPager;
 
   private ActivityDetailBinding(@NonNull ConstraintLayout rootView,
-      @NonNull CircleImageView detailUserPhoto, @NonNull ProgressBar progressBar,
-      @NonNull TabLayout tabs, @NonNull TextView tvDetailUsername, @NonNull TextView tvFollowers,
-      @NonNull TextView tvFollowing, @NonNull TextView tvFullname, @NonNull ViewPager2 viewPager) {
+      @NonNull CircleImageView detailUserPhoto, @NonNull FloatingActionButton fabFavorite,
+      @NonNull ProgressBar progressBar, @NonNull TabLayout tabs, @NonNull TextView tvDetailUsername,
+      @NonNull TextView tvFollowers, @NonNull TextView tvFollowing, @NonNull TextView tvFullname,
+      @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
     this.detailUserPhoto = detailUserPhoto;
+    this.fabFavorite = fabFavorite;
     this.progressBar = progressBar;
     this.tabs = tabs;
     this.tvDetailUsername = tvDetailUsername;
@@ -92,6 +98,12 @@ public final class ActivityDetailBinding implements ViewBinding {
       id = R.id.detailUserPhoto;
       CircleImageView detailUserPhoto = ViewBindings.findChildViewById(rootView, id);
       if (detailUserPhoto == null) {
+        break missingId;
+      }
+
+      id = R.id.fab_favorite;
+      FloatingActionButton fabFavorite = ViewBindings.findChildViewById(rootView, id);
+      if (fabFavorite == null) {
         break missingId;
       }
 
@@ -137,8 +149,8 @@ public final class ActivityDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDetailBinding((ConstraintLayout) rootView, detailUserPhoto, progressBar,
-          tabs, tvDetailUsername, tvFollowers, tvFollowing, tvFullname, viewPager);
+      return new ActivityDetailBinding((ConstraintLayout) rootView, detailUserPhoto, fabFavorite,
+          progressBar, tabs, tvDetailUsername, tvFollowers, tvFollowing, tvFullname, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

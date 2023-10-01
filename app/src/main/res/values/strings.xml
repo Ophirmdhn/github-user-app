@@ -13,4 +13,5 @@
     <string name="logo_github">Logo Github</string>
     <string name="total_followers">Followers %d</string>
     <string name="total_following">Following %d</string>
+    <string name="button_favorite">button favorite</string>
 </resources>

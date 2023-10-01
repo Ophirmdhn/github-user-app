@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">GitHubUser</string>
+    <string name="button_favorite">button favorite</string>
     <string name="detail_user_name">Username</string>
     <string name="followers">123 Followers</string>
     <string name="following">123 Following</string>

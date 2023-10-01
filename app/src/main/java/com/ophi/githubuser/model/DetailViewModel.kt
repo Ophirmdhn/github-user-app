@@ -42,7 +42,7 @@ class DetailViewModel : ViewModel() {
                     _detailUser.value = response.body()
                     Log.d("findUser", "onCreate: ${response.body()}")
                 } else {
-                    Log.e(TAG,"onFailure: Error yah ges ${response.message()}")
+                    Log.e(TAG,"onFailure: ${response.message()}")
                 }
             }
 

@@ -2,14 +2,18 @@ R_DEF: Internal format may change without notice
 local
 color black
 color white
+drawable ic_favorite_24
+drawable ic_favorite_border_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo_app
 id card_view
 id detailUserPhoto
+id fab_favorite
 id logo_app
 id progressBar
 id progressBar3
+id rvFavorite
 id rvFollowers
 id rvUser
 id searchBar
@@ -23,6 +27,7 @@ id tvUsername
 id userPhoto
 id viewPager
 layout activity_detail
+layout activity_favorite
 layout activity_main
 layout activity_splash_screen
 layout fragment_follow
@@ -30,6 +35,7 @@ layout item_row_user
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string button_favorite
 string detail_user_name
 string followers
 string following

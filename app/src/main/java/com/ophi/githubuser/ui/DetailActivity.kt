@@ -1,24 +1,40 @@
 package com.ophi.githubuser.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.annotation.StringRes
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2
 import com.bumptech.glide.Glide
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import com.ophi.githubuser.R
 import com.ophi.githubuser.adapter.SectionPagerAdapter
+import com.ophi.githubuser.data.local.entity.FavoriteUser
 import com.ophi.githubuser.data.response.DetailUserResponse
 import com.ophi.githubuser.databinding.ActivityDetailBinding
 import com.ophi.githubuser.model.DetailViewModel
+import com.ophi.githubuser.model.FavoriteViewModel
+import com.ophi.githubuser.model.ViewModelFactory
 
 class DetailActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailBinding
-    private val detailViewModel by viewModels<DetailViewModel>()
+
+    private val detailViewModel by viewModels<DetailViewModel>() {
+        ViewModelFactory.getInstance(application)
+    }
+
+    private val favoriteViewModel by viewModels<FavoriteViewModel>() {
+        ViewModelFactory.getInstance(application)
+    }
+
+    private var favoriteUser: FavoriteUser? = null
+
+    private var isFavorite: Boolean = false
 
     companion object {
         const val EXTRA_USERNAME = "extra_username"
@@ -39,6 +55,21 @@ class DetailActivity : AppCompatActivity() {
         val username = intent.getStringExtra(EXTRA_USERNAME)
         if (username != null) {
             detailViewModel.findGithub(username)
+
+            favoriteUser = FavoriteUser(username.toString(), null)
+            favoriteViewModel.getFavoriteUserByUsername(username).observe(this) { favoriteUser ->
+                if (favoriteUser != null) {
+                    binding.fabFavorite.setImageDrawable(ContextCompat.getDrawable(
+                        binding.fabFavorite.context, R.drawable.ic_favorite_24
+                    ))
+                    isFavorite = true
+                } else {
+                    binding.fabFavorite.setImageDrawable(ContextCompat.getDrawable(
+                        binding.fabFavorite.context, R.drawable.ic_favorite_border_24
+                    ))
+                    isFavorite = false
+                }
+            }
         }
 
         supportActionBar?.hide()
@@ -73,6 +104,17 @@ class DetailActivity : AppCompatActivity() {
             tvDetailUsername.text = detail.login
             tvFollowers.text = resources.getString(R.string.total_followers, detail.followers)
             tvFollowing.text = resources.getString(R.string.total_following, detail.following)
+        }
+
+        binding.fabFavorite.setOnClickListener {
+            if (isFavorite) {
+                favoriteViewModel.delete(favoriteUser as FavoriteUser)
+                Toast.makeText(this, "Dihapus dari Favorite", Toast.LENGTH_SHORT).show()
+            } else {
+                favoriteUser = FavoriteUser(detail.login, detail.avatarUrl)
+                favoriteViewModel.insert(favoriteUser as FavoriteUser)
+                Toast.makeText(this, "Ditambahkan ke Favorite", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 

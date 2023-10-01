@@ -1,42 +1,46 @@
-com.ophi.githubuser.app-lifecycle-livedata-2.6.1-0 C:\Users\ophir\.gradle\caches\transforms-3\04ad3c551dd0bd7b246f74566d028359\transformed\lifecycle-livedata-2.6.1\res
-com.ophi.githubuser.app-circleimageview-3.1.0-1 C:\Users\ophir\.gradle\caches\transforms-3\08a3fecb97f955e4afe999575c37a28a\transformed\circleimageview-3.1.0\res
-com.ophi.githubuser.app-savedstate-ktx-1.2.1-2 C:\Users\ophir\.gradle\caches\transforms-3\0acf2367296c56de6b7f9adac4af54af\transformed\savedstate-ktx-1.2.1\res
-com.ophi.githubuser.app-coordinatorlayout-1.1.0-3 C:\Users\ophir\.gradle\caches\transforms-3\155e29d007de3b3784c0da79052b2def\transformed\coordinatorlayout-1.1.0\res
-com.ophi.githubuser.app-emoji2-views-helper-1.2.0-4 C:\Users\ophir\.gradle\caches\transforms-3\15abc3b98619e684622a74b5d5d798cf\transformed\emoji2-views-helper-1.2.0\res
-com.ophi.githubuser.app-core-runtime-2.2.0-5 C:\Users\ophir\.gradle\caches\transforms-3\190eb7688c199b2268737600246f9282\transformed\core-runtime-2.2.0\res
-com.ophi.githubuser.app-appcompat-1.6.1-6 C:\Users\ophir\.gradle\caches\transforms-3\26c911d3cf93a7c0e4fcf2c49b0a758c\transformed\appcompat-1.6.1\res
-com.ophi.githubuser.app-activity-ktx-1.7.2-7 C:\Users\ophir\.gradle\caches\transforms-3\2a979ff0bb76d3825edb288a21953501\transformed\activity-ktx-1.7.2\res
-com.ophi.githubuser.app-lifecycle-livedata-core-ktx-2.6.1-8 C:\Users\ophir\.gradle\caches\transforms-3\2bac26b5a2bd717b50b8ebfdf0e3efa9\transformed\lifecycle-livedata-core-ktx-2.6.1\res
-com.ophi.githubuser.app-annotation-experimental-1.3.0-9 C:\Users\ophir\.gradle\caches\transforms-3\2cb4b5a46196d7fcbae48de0cc76e1e0\transformed\annotation-experimental-1.3.0\res
-com.ophi.githubuser.app-core-1.9.0-10 C:\Users\ophir\.gradle\caches\transforms-3\3c11ddf1f1ffbda5ee4d54edb6c4ee68\transformed\core-1.9.0\res
-com.ophi.githubuser.app-lifecycle-viewmodel-ktx-2.6.1-11 C:\Users\ophir\.gradle\caches\transforms-3\40de453e9d5874d15330edf7e0f04eaa\transformed\lifecycle-viewmodel-ktx-2.6.1\res
-com.ophi.githubuser.app-fragment-1.6.1-12 C:\Users\ophir\.gradle\caches\transforms-3\4b363d7020428280453e92c7f26286e9\transformed\fragment-1.6.1\res
-com.ophi.githubuser.app-drawerlayout-1.1.1-13 C:\Users\ophir\.gradle\caches\transforms-3\4b906fa0b8a48db0bb50b56afc64d8e0\transformed\drawerlayout-1.1.1\res
-com.ophi.githubuser.app-lifecycle-runtime-ktx-2.6.1-14 C:\Users\ophir\.gradle\caches\transforms-3\4c9e62c4b094acfef60a5e76e5e7203f\transformed\lifecycle-runtime-ktx-2.6.1\res
-com.ophi.githubuser.app-material-1.9.0-15 C:\Users\ophir\.gradle\caches\transforms-3\676a4f33d6bbbcf95f2fe1bac76accc4\transformed\material-1.9.0\res
-com.ophi.githubuser.app-appcompat-resources-1.6.1-16 C:\Users\ophir\.gradle\caches\transforms-3\6843dd0d9ae138e903a6219db7755abb\transformed\appcompat-resources-1.6.1\res
-com.ophi.githubuser.app-emoji2-1.2.0-17 C:\Users\ophir\.gradle\caches\transforms-3\6cab4aafa2a113f80dab115e00217c6b\transformed\emoji2-1.2.0\res
-com.ophi.githubuser.app-lifecycle-process-2.6.1-18 C:\Users\ophir\.gradle\caches\transforms-3\763f17d2b1191d574ecac92f1ea4c5fb\transformed\lifecycle-process-2.6.1\res
-com.ophi.githubuser.app-startup-runtime-1.1.1-19 C:\Users\ophir\.gradle\caches\transforms-3\7d316aff347a934a4e76fb2f969ba283\transformed\startup-runtime-1.1.1\res
-com.ophi.githubuser.app-transition-1.2.0-20 C:\Users\ophir\.gradle\caches\transforms-3\7fc902c3bc1ffd5a45b53010756c04c8\transformed\transition-1.2.0\res
-com.ophi.githubuser.app-viewpager2-1.0.0-21 C:\Users\ophir\.gradle\caches\transforms-3\84813c30f5de0cb95363cde61dfd9e6b\transformed\viewpager2-1.0.0\res
-com.ophi.githubuser.app-savedstate-1.2.1-22 C:\Users\ophir\.gradle\caches\transforms-3\8bc26185f37c9c9bc828d40e0e3ad716\transformed\savedstate-1.2.1\res
-com.ophi.githubuser.app-lifecycle-livedata-core-2.6.1-23 C:\Users\ophir\.gradle\caches\transforms-3\a358d9e04063d7c1686922e24a16c693\transformed\lifecycle-livedata-core-2.6.1\res
-com.ophi.githubuser.app-fragment-ktx-1.6.1-24 C:\Users\ophir\.gradle\caches\transforms-3\afb49ee8967a0945c871eae9aae379d4\transformed\fragment-ktx-1.6.1\res
-com.ophi.githubuser.app-profileinstaller-1.3.0-25 C:\Users\ophir\.gradle\caches\transforms-3\bad35634c7ca9839e71625c3bd8774c2\transformed\profileinstaller-1.3.0\res
-com.ophi.githubuser.app-lifecycle-runtime-2.6.1-26 C:\Users\ophir\.gradle\caches\transforms-3\c25faed1bfb6072ee48535331e221bcc\transformed\lifecycle-runtime-2.6.1\res
-com.ophi.githubuser.app-recyclerview-1.1.0-27 C:\Users\ophir\.gradle\caches\transforms-3\d2c2cafc90d598b775e4bfe93c5b3c3d\transformed\recyclerview-1.1.0\res
-com.ophi.githubuser.app-activity-1.7.2-28 C:\Users\ophir\.gradle\caches\transforms-3\d6cf707972e83f5d5f2d8b0a33e5437d\transformed\activity-1.7.2\res
-com.ophi.githubuser.app-glide-4.11.0-29 C:\Users\ophir\.gradle\caches\transforms-3\ddf75e318fa8b51d4472e069380ef940\transformed\glide-4.11.0\res
-com.ophi.githubuser.app-constraintlayout-2.1.4-30 C:\Users\ophir\.gradle\caches\transforms-3\dec4614628d7a9d2a5f1f5197247ace1\transformed\constraintlayout-2.1.4\res
-com.ophi.githubuser.app-lifecycle-viewmodel-2.6.1-31 C:\Users\ophir\.gradle\caches\transforms-3\e1e427403df3867ef4c5f1dd522ac9f1\transformed\lifecycle-viewmodel-2.6.1\res
-com.ophi.githubuser.app-core-ktx-1.9.0-32 C:\Users\ophir\.gradle\caches\transforms-3\f40534497e56e61b6341f95715d4b451\transformed\core-ktx-1.9.0\res
-com.ophi.githubuser.app-cardview-1.0.0-33 C:\Users\ophir\.gradle\caches\transforms-3\f6258c9338dc0fe367c50f1f943dd550\transformed\cardview-1.0.0\res
-com.ophi.githubuser.app-lifecycle-viewmodel-savedstate-2.6.1-34 C:\Users\ophir\.gradle\caches\transforms-3\f65fc4e33e9c6690c14e4fbae46679d5\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
-com.ophi.githubuser.app-pngs-35 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\generated\res\pngs\debug
-com.ophi.githubuser.app-resValues-36 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\generated\res\resValues\debug
-com.ophi.githubuser.app-packageDebugResources-37 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.ophi.githubuser.app-packageDebugResources-38 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.ophi.githubuser.app-merged_res-39 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\intermediates\merged_res\debug
-com.ophi.githubuser.app-debug-40 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\src\debug\res
-com.ophi.githubuser.app-main-41 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\src\main\res
+com.ophi.githubuser.app-constraintlayout-2.1.4-0 C:\Users\ophir\.gradle\caches\transforms-3\0858095b09bd69d83163e3904ae20735\transformed\constraintlayout-2.1.4\res
+com.ophi.githubuser.app-core-1.9.0-1 C:\Users\ophir\.gradle\caches\transforms-3\10d04832e1d11c0def96e015547e5f66\transformed\core-1.9.0\res
+com.ophi.githubuser.app-activity-1.7.2-2 C:\Users\ophir\.gradle\caches\transforms-3\117bbb77b58c9aa3fdcc3c0055b93453\transformed\activity-1.7.2\res
+com.ophi.githubuser.app-lifecycle-runtime-ktx-2.6.2-3 C:\Users\ophir\.gradle\caches\transforms-3\138283f8c21337ba647d15e32cfb58b7\transformed\lifecycle-runtime-ktx-2.6.2\res
+com.ophi.githubuser.app-lifecycle-runtime-2.6.2-4 C:\Users\ophir\.gradle\caches\transforms-3\1ba796f603514574cf9d3a22c8cfa802\transformed\lifecycle-runtime-2.6.2\res
+com.ophi.githubuser.app-core-ktx-1.9.0-5 C:\Users\ophir\.gradle\caches\transforms-3\227500946fc295d25387708a7a2772d4\transformed\core-ktx-1.9.0\res
+com.ophi.githubuser.app-fragment-ktx-1.6.1-6 C:\Users\ophir\.gradle\caches\transforms-3\2b62dd4cd7b52dedfb53c6b9e0ac0da0\transformed\fragment-ktx-1.6.1\res
+com.ophi.githubuser.app-lifecycle-viewmodel-ktx-2.6.2-7 C:\Users\ophir\.gradle\caches\transforms-3\2c3557dabd5de0ecd690fc848d9ffb2e\transformed\lifecycle-viewmodel-ktx-2.6.2\res
+com.ophi.githubuser.app-savedstate-1.2.1-8 C:\Users\ophir\.gradle\caches\transforms-3\2f32713ba28c1f16df8aae92a2a77cce\transformed\savedstate-1.2.1\res
+com.ophi.githubuser.app-lifecycle-livedata-2.6.2-9 C:\Users\ophir\.gradle\caches\transforms-3\33dda1b9b77105959b34b0ae07214e75\transformed\lifecycle-livedata-2.6.2\res
+com.ophi.githubuser.app-circleimageview-3.1.0-10 C:\Users\ophir\.gradle\caches\transforms-3\497b5c98fe935e094d568d7840fe5134\transformed\circleimageview-3.1.0\res
+com.ophi.githubuser.app-core-runtime-2.2.0-11 C:\Users\ophir\.gradle\caches\transforms-3\548c501d5610d4cb39e827cabc1fd062\transformed\core-runtime-2.2.0\res
+com.ophi.githubuser.app-recyclerview-1.1.0-12 C:\Users\ophir\.gradle\caches\transforms-3\5848bf200c35c1ec31a25ece233685a6\transformed\recyclerview-1.1.0\res
+com.ophi.githubuser.app-lifecycle-livedata-ktx-2.6.2-13 C:\Users\ophir\.gradle\caches\transforms-3\5eccfd877571863437f0de2ae6364c1d\transformed\lifecycle-livedata-ktx-2.6.2\res
+com.ophi.githubuser.app-coordinatorlayout-1.1.0-14 C:\Users\ophir\.gradle\caches\transforms-3\61d59b2a681b6ac5aaba356ce5be061b\transformed\coordinatorlayout-1.1.0\res
+com.ophi.githubuser.app-lifecycle-viewmodel-2.6.2-15 C:\Users\ophir\.gradle\caches\transforms-3\639aae55b5bd0108bf39dd58368e0ef1\transformed\lifecycle-viewmodel-2.6.2\res
+com.ophi.githubuser.app-sqlite-framework-2.3.1-16 C:\Users\ophir\.gradle\caches\transforms-3\63d5ff1370eedae0fbbf136a8f01b308\transformed\sqlite-framework-2.3.1\res
+com.ophi.githubuser.app-cardview-1.0.0-17 C:\Users\ophir\.gradle\caches\transforms-3\6675b67b5d7fa57598b8ded52d9af4db\transformed\cardview-1.0.0\res
+com.ophi.githubuser.app-profileinstaller-1.3.0-18 C:\Users\ophir\.gradle\caches\transforms-3\682be4b0f825699ac6555efeaf9809a4\transformed\profileinstaller-1.3.0\res
+com.ophi.githubuser.app-startup-runtime-1.1.1-19 C:\Users\ophir\.gradle\caches\transforms-3\6dbed94ff3d4e44d412277140edfc02b\transformed\startup-runtime-1.1.1\res
+com.ophi.githubuser.app-fragment-1.6.1-20 C:\Users\ophir\.gradle\caches\transforms-3\768b685fb59bc28433dc1817f149a088\transformed\fragment-1.6.1\res
+com.ophi.githubuser.app-drawerlayout-1.1.1-21 C:\Users\ophir\.gradle\caches\transforms-3\78d0cacbe6b1a4bca60fbe2e9dcb05bb\transformed\drawerlayout-1.1.1\res
+com.ophi.githubuser.app-emoji2-views-helper-1.2.0-22 C:\Users\ophir\.gradle\caches\transforms-3\82b9fb4c32fe1f089603227e7eda8c3f\transformed\emoji2-views-helper-1.2.0\res
+com.ophi.githubuser.app-glide-4.11.0-23 C:\Users\ophir\.gradle\caches\transforms-3\87af456d7c258ff689fada3b9abe74d4\transformed\glide-4.11.0\res
+com.ophi.githubuser.app-appcompat-resources-1.6.1-24 C:\Users\ophir\.gradle\caches\transforms-3\8a27f941664faf28fc5a861405ed0d32\transformed\appcompat-resources-1.6.1\res
+com.ophi.githubuser.app-savedstate-ktx-1.2.1-25 C:\Users\ophir\.gradle\caches\transforms-3\8dfea7f2a9a06b1a2a8ed7855bb3cc9d\transformed\savedstate-ktx-1.2.1\res
+com.ophi.githubuser.app-emoji2-1.2.0-26 C:\Users\ophir\.gradle\caches\transforms-3\8efb21b98b3b8c41a7d6956cf51e3a13\transformed\emoji2-1.2.0\res
+com.ophi.githubuser.app-room-runtime-2.5.2-27 C:\Users\ophir\.gradle\caches\transforms-3\9363031f128a2b8b2940dcb81923ae05\transformed\room-runtime-2.5.2\res
+com.ophi.githubuser.app-lifecycle-viewmodel-savedstate-2.6.2-28 C:\Users\ophir\.gradle\caches\transforms-3\a23f0f1ca2cf1b3737416d181e7efcf9\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.ophi.githubuser.app-transition-1.2.0-29 C:\Users\ophir\.gradle\caches\transforms-3\a64c87efaf1e2b360205a22510ea45eb\transformed\transition-1.2.0\res
+com.ophi.githubuser.app-viewpager2-1.0.0-30 C:\Users\ophir\.gradle\caches\transforms-3\adba268837cc8abcf47069dcf06ef330\transformed\viewpager2-1.0.0\res
+com.ophi.githubuser.app-lifecycle-livedata-core-2.6.2-31 C:\Users\ophir\.gradle\caches\transforms-3\b44e9c09349253e37dedd01307461854\transformed\lifecycle-livedata-core-2.6.2\res
+com.ophi.githubuser.app-sqlite-2.3.1-32 C:\Users\ophir\.gradle\caches\transforms-3\bc420c9e933163a703e1af24bd1eae07\transformed\sqlite-2.3.1\res
+com.ophi.githubuser.app-lifecycle-livedata-core-ktx-2.6.2-33 C:\Users\ophir\.gradle\caches\transforms-3\ed125dc8b9683cfb08746a8bfde3870a\transformed\lifecycle-livedata-core-ktx-2.6.2\res
+com.ophi.githubuser.app-lifecycle-process-2.6.2-34 C:\Users\ophir\.gradle\caches\transforms-3\ef4ce909bbe6ed1dce333506e47ca467\transformed\lifecycle-process-2.6.2\res
+com.ophi.githubuser.app-appcompat-1.6.1-35 C:\Users\ophir\.gradle\caches\transforms-3\f45c8df0eea690963d806ce702046de2\transformed\appcompat-1.6.1\res
+com.ophi.githubuser.app-material-1.9.0-36 C:\Users\ophir\.gradle\caches\transforms-3\f5bc5263a53abbc022ba65077356f1c8\transformed\material-1.9.0\res
+com.ophi.githubuser.app-annotation-experimental-1.3.0-37 C:\Users\ophir\.gradle\caches\transforms-3\f7a7d5262b1acac0f1d642baad0dd362\transformed\annotation-experimental-1.3.0\res
+com.ophi.githubuser.app-activity-ktx-1.7.2-38 C:\Users\ophir\.gradle\caches\transforms-3\fa68279db0de2a89848af5f7ca1c68fd\transformed\activity-ktx-1.7.2\res
+com.ophi.githubuser.app-pngs-39 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\generated\res\pngs\debug
+com.ophi.githubuser.app-resValues-40 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\generated\res\resValues\debug
+com.ophi.githubuser.app-packageDebugResources-41 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.ophi.githubuser.app-packageDebugResources-42 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.ophi.githubuser.app-merged_res-43 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\intermediates\merged_res\debug
+com.ophi.githubuser.app-debug-44 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\src\debug\res
+com.ophi.githubuser.app-main-45 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\src\main\res

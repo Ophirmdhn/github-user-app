@@ -1,12 +1,11 @@
 package com.ophi.githubuser.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ophi.githubuser.adapter.UserAdapter
 import com.ophi.githubuser.data.response.ItemsItem
@@ -31,9 +30,6 @@ class FollowFragment : Fragment() {
 
         val layoutManager = LinearLayoutManager(requireActivity())
         binding.rvFollowers.layoutManager = layoutManager
-
-        val itemDecoration = DividerItemDecoration(requireActivity(), layoutManager.orientation)
-        binding.rvFollowers.addItemDecoration(itemDecoration)
 
         detailViewModel.isLoadingDetail.observe(viewLifecycleOwner) { loading ->
             showLoading(loading)
