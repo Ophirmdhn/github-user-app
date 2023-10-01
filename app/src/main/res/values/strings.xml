@@ -6,7 +6,6 @@
     <string name="detail_user_name">Username</string>
     <string name="followers">123 Followers</string>
     <string name="following">123 Following</string>
-    <string name="total">123</string>
     <string name="full_name">Full Name</string>
     <string name="tab_text_1">Followers</string>
     <string name="tab_text_2">Following</string>
@@ -14,4 +13,6 @@
     <string name="total_followers">Followers %d</string>
     <string name="total_following">Following %d</string>
     <string name="button_favorite">button favorite</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_setting">Setting</string>
 </resources>

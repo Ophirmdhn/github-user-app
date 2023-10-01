@@ -1,10 +1,12 @@
 package com.ophi.githubuser.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.ophi.githubuser.R
 import com.ophi.githubuser.adapter.UserAdapter
 import com.ophi.githubuser.data.response.ItemsItem
 import com.ophi.githubuser.databinding.ActivityMainBinding
@@ -36,6 +38,7 @@ class MainActivity : AppCompatActivity() {
 
         with(binding) {
             searchView.setupWithSearchBar(searchBar)
+            searchBar.inflateMenu(R.menu.option_menu)
             searchView
                 .editText
                 .setOnEditorActionListener { textView, actionId, event ->
@@ -44,6 +47,17 @@ class MainActivity : AppCompatActivity() {
                     mainViewModel.findGithub(searchView.text.toString())
                     false
                 }
+
+            searchBar.setOnMenuItemClickListener { menu ->
+                when(menu.itemId) {
+                    R.id.menu_favorite -> {
+                        val intent = Intent(this@MainActivity, FavoriteActivity::class.java)
+                        startActivity(intent)
+                        true
+                    }
+                    else -> false
+                }
+            }
         }
     }
 

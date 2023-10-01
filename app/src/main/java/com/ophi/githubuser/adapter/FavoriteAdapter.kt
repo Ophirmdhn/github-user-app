@@ -25,6 +25,7 @@ class FavoriteAdapter: ListAdapter<FavoriteUser, FavoriteAdapter.MyViewHolder>(D
         holder.itemView.setOnClickListener {
             val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
             intentDetail.putExtra("extra_username", favUser.username)
+            holder.itemView.context.startActivity(intentDetail)
         }
     }
 

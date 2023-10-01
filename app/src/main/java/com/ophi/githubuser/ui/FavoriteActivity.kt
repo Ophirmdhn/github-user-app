@@ -24,6 +24,8 @@ class FavoriteActivity : AppCompatActivity() {
         _binding = ActivityFavoriteBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
+        supportActionBar?.title = "Favorite"
+
         val layoutManager = LinearLayoutManager(this)
         binding?.rvFavorite?.layoutManager = layoutManager
 

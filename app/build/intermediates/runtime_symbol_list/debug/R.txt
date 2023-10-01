@@ -2933,6 +2933,7 @@ int drawable ic_mtrl_chip_checked_black 0x7f070093
 int drawable ic_mtrl_chip_checked_circle 0x7f070094
 int drawable ic_mtrl_chip_close_circle 0x7f070095
 int drawable ic_search_black_24 0x7f070096
+int drawable ic_settings_24 0x7f0700e2
 int drawable logo_app 0x7f070097
 int drawable m3_appbar_background 0x7f070098
 int drawable m3_avd_hide_password 0x7f070099
@@ -3277,6 +3278,8 @@ int id material_timepicker_ok_button 0x7f080109
 int id material_timepicker_view 0x7f08010a
 int id material_value_index 0x7f08010b
 int id matrix 0x7f08010c
+int id menu_favorite 0x7f080202
+int id menu_setting 0x7f080203
 int id message 0x7f08010d
 int id middle 0x7f08010e
 int id mini 0x7f08010f
@@ -3718,6 +3721,7 @@ int layout select_dialog_item_material 0x7f0b006a
 int layout select_dialog_multichoice_material 0x7f0b006b
 int layout select_dialog_singlechoice_material 0x7f0b006c
 int layout support_simple_spinner_dropdown_item 0x7f0b006d
+int menu option_menu 0x7f130001
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_round 0x7f0d0001
 int plurals mtrl_badge_content_description 0x7f0e0000
@@ -3812,6 +3816,8 @@ int string material_timepicker_minute 0x7f0f0057
 int string material_timepicker_pm 0x7f0f0058
 int string material_timepicker_select_time 0x7f0f0059
 int string material_timepicker_text_input_mode_description 0x7f0f005a
+int string menu_favorite 0x7f0f00ad
+int string menu_setting 0x7f0f00ae
 int string mtrl_badge_numberless_content_description 0x7f0f005b
 int string mtrl_checkbox_button_icon_path_checked 0x7f0f005c
 int string mtrl_checkbox_button_icon_path_group_name 0x7f0f005d
@@ -3891,7 +3897,6 @@ int string status_bar_notification_info_overflow 0x7f0f00a6
 int string tab_text_1 0x7f0f00a7
 int string tab_text_2 0x7f0f00a8
 int string this_activity 0x7f0f00a9
-int string total 0x7f0f00aa
 int string total_followers 0x7f0f00ab
 int string total_following 0x7f0f00ac
 int style AlertDialog_AppCompat 0x7f100000

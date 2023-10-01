@@ -1,9 +1,5 @@
 [
     {
-        "merged": "com.ophi.githubuser.app-merged_res-43:/layout_activity_favorite.xml.flat",
-        "source": "com.ophi.githubuser.app-main-45:/layout/activity_favorite.xml"
-    },
-    {
         "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -20,8 +16,16 @@
         "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\layout\\fragment_follow.xml"
     },
     {
+        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-43:\\layout_activity_favorite.xml.flat",
+        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\layout\\activity_favorite.xml"
+    },
+    {
         "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-43:\\layout_item_row_user.xml.flat",
         "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\layout\\item_row_user.xml"
+    },
+    {
+        "merged": "com.ophi.githubuser.app-merged_res-43:/menu_option_menu.xml.flat",
+        "source": "com.ophi.githubuser.app-main-45:/menu/option_menu.xml"
     },
     {
         "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -34,6 +38,10 @@
     {
         "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-43:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-43:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\menu\\menu.xml"
     },
     {
         "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-43:\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -52,12 +60,12 @@
         "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\drawable\\ic_favorite_24.xml"
     },
     {
-        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-43:\\drawable_ic_favorite_border_24.xml.flat",
-        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\drawable\\ic_favorite_border_24.xml"
+        "merged": "com.ophi.githubuser.app-merged_res-43:/drawable_ic_settings_24.xml.flat",
+        "source": "com.ophi.githubuser.app-main-45:/drawable/ic_settings_24.xml"
     },
     {
-        "merged": "com.ophi.githubuser.app-merged_res-43:/layout_activity_main.xml.flat",
-        "source": "com.ophi.githubuser.app-main-45:/layout/activity_main.xml"
+        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-43:\\drawable_ic_favorite_border_24.xml.flat",
+        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\drawable\\ic_favorite_border_24.xml"
     },
     {
         "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-43:\\drawable_ic_launcher_foreground.xml.flat",
@@ -102,9 +110,5 @@
     {
         "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-merged_res-43:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.ophi.githubuser.app-merged_res-43:/layout_item_row_user.xml.flat",
-        "source": "com.ophi.githubuser.app-main-45:/layout/item_row_user.xml"
     }
 ]

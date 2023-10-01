@@ -6,11 +6,14 @@ drawable ic_favorite_24
 drawable ic_favorite_border_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_settings_24
 drawable logo_app
 id card_view
 id detailUserPhoto
 id fab_favorite
 id logo_app
+id menu_favorite
+id menu_setting
 id progressBar
 id progressBar3
 id rvFavorite
@@ -32,6 +35,7 @@ layout activity_main
 layout activity_splash_screen
 layout fragment_follow
 layout item_row_user
+menu option_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
@@ -41,12 +45,13 @@ string followers
 string following
 string full_name
 string logo_github
+string menu_favorite
+string menu_setting
 string name
 string searchbar_hint
 string tab_text_1
 string tab_text_2
 string this_activity
-string total
 string total_followers
 string total_following
 style Base.Theme.GitHubUser
