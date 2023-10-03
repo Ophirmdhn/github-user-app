@@ -15,6 +15,11 @@
         android:theme="@style/Theme.GitHubUser"
         tools:targetApi="31">
         <activity
+            android:name=".setting.SettingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/Theme.GitHubUser" />
+        <activity
             android:name=".ui.FavoriteActivity"
             android:exported="false" />
         <activity

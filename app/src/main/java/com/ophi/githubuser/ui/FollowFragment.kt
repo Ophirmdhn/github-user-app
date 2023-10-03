@@ -14,14 +14,18 @@ import com.ophi.githubuser.model.DetailViewModel
 
 class FollowFragment : Fragment() {
 
-    private lateinit var binding: FragmentFollowBinding
+//    private lateinit var binding: FragmentFollowBinding
+
+    private var _binding: FragmentFollowBinding? = null
+    private val binding get() = _binding!!
+
     private val detailViewModel by viewModels<DetailViewModel>()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentFollowBinding.inflate(inflater, container, false)
+        _binding = FragmentFollowBinding.inflate(inflater, container, false)
         return binding.root
     }
 

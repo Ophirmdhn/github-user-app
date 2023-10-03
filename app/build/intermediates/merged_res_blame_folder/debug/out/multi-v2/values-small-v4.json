@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.ophi.githubuser.app-mergeDebugResources-41:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.ophi.githubuser.app-mergeDebugResources-43:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ophir\\.gradle\\caches\\transforms-3\\f5bc5263a53abbc022ba65077356f1c8\\transformed\\material-1.9.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\ophir\\.gradle\\caches\\transforms-3\\b003c69536a7c2d7fa13bf160348b777\\transformed\\material-1.9.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -1,34 +1,30 @@
 [
     {
-        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-mergeDebugResources-42:\\layout\\item_row_user.xml",
-        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\layout\\item_row_user.xml"
+        "merged": "com.ophi.githubuser.app-mergeDebugResources-44:/layout/activity_detail.xml",
+        "source": "com.ophi.githubuser.app-main-47:/layout/activity_detail.xml"
     },
     {
-        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-mergeDebugResources-42:\\layout\\fragment_follow.xml",
-        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\layout\\fragment_follow.xml"
+        "merged": "com.ophi.githubuser.app-mergeDebugResources-44:/layout/activity_setting.xml",
+        "source": "com.ophi.githubuser.app-main-47:/layout/activity_setting.xml"
     },
     {
-        "merged": "com.ophi.githubuser.app-mergeDebugResources-42:/layout/activity_favorite.xml",
-        "source": "com.ophi.githubuser.app-main-45:/layout/activity_favorite.xml"
+        "merged": "com.ophi.githubuser.app-mergeDebugResources-44:/layout/item_row_user.xml",
+        "source": "com.ophi.githubuser.app-main-47:/layout/item_row_user.xml"
     },
     {
-        "merged": "com.ophi.githubuser.app-mergeDebugResources-42:/layout/item_row_user.xml",
-        "source": "com.ophi.githubuser.app-main-45:/layout/item_row_user.xml"
+        "merged": "com.ophi.githubuser.app-mergeDebugResources-44:/layout/activity_favorite.xml",
+        "source": "com.ophi.githubuser.app-main-47:/layout/activity_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-mergeDebugResources-42:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\layout\\activity_main.xml"
+        "merged": "com.ophi.githubuser.app-mergeDebugResources-44:/layout/fragment_follow.xml",
+        "source": "com.ophi.githubuser.app-main-47:/layout/fragment_follow.xml"
     },
     {
-        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-mergeDebugResources-42:\\layout\\activity_detail.xml",
-        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\layout\\activity_detail.xml"
+        "merged": "com.ophi.githubuser.app-mergeDebugResources-44:/layout/activity_splash_screen.xml",
+        "source": "com.ophi.githubuser.app-main-47:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-mergeDebugResources-42:\\layout\\activity_splash_screen.xml",
-        "source": "C:\\Users\\ophir\\.gradle\\daemon\\8.0\\com.ophi.githubuser.app-main-45:\\layout\\activity_splash_screen.xml"
-    },
-    {
-        "merged": "com.ophi.githubuser.app-mergeDebugResources-42:/layout/activity_main.xml",
-        "source": "com.ophi.githubuser.app-main-45:/layout/activity_main.xml"
+        "merged": "com.ophi.githubuser.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "com.ophi.githubuser.app-main-47:/layout/activity_main.xml"
     }
 ]

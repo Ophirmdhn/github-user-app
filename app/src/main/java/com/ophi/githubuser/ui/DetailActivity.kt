@@ -36,16 +36,6 @@ class DetailActivity : AppCompatActivity() {
 
     private var isFavorite: Boolean = false
 
-    companion object {
-        const val EXTRA_USERNAME = "extra_username"
-
-        @StringRes
-        private val TAB_TITLES = intArrayOf(
-            R.string.tab_text_1,
-            R.string.tab_text_2
-        )
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -119,4 +109,14 @@ class DetailActivity : AppCompatActivity() {
     }
 
     private fun showLoading(state: Boolean) { binding.progressBar.visibility = if (state) View.VISIBLE else View.GONE }
+
+    companion object {
+        const val EXTRA_USERNAME = "extra_username"
+
+        @StringRes
+        private val TAB_TITLES = intArrayOf(
+            R.string.tab_text_1,
+            R.string.tab_text_2
+        )
+    }
 }

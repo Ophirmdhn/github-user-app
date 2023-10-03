@@ -1,8 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.GitHubUser" parent="Theme.Material3.DayNight">
-         <item name="colorPrimary">#850404</item>
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryContainer">@color/yellow</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
     </style>
 
     <style name="Theme.GitHubUser" parent="Base.Theme.GitHubUser" />
+
+    <style name="searchBar">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
 </resources>

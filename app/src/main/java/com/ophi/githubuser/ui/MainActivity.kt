@@ -5,12 +5,19 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ophi.githubuser.R
 import com.ophi.githubuser.adapter.UserAdapter
 import com.ophi.githubuser.data.response.ItemsItem
 import com.ophi.githubuser.databinding.ActivityMainBinding
 import com.ophi.githubuser.model.MainViewModel
+import com.ophi.githubuser.setting.SettingActivity
+import com.ophi.githubuser.setting.SettingPreferences
+import com.ophi.githubuser.setting.SettingViewModel
+import com.ophi.githubuser.setting.SettingViewModelFactory
+import com.ophi.githubuser.setting.dataStore
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,6 +31,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         supportActionBar?.hide()
+
+        val pref = SettingPreferences.getInstance(application.dataStore)
+        val settingViewModel =
+            ViewModelProvider(this, SettingViewModelFactory(pref))[SettingViewModel::class.java]
+
+        settingViewModel.getThemeSettings().observe(this) { isDarkModeActive: Boolean ->
+            if (isDarkModeActive) {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+            } else {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            }
+        }
 
         mainViewModel.listUser.observe(this) { user ->
             setUserData(user)
@@ -52,6 +71,11 @@ class MainActivity : AppCompatActivity() {
                 when(menu.itemId) {
                     R.id.menu_favorite -> {
                         val intent = Intent(this@MainActivity, FavoriteActivity::class.java)
+                        startActivity(intent)
+                        true
+                    }
+                    R.id.menu_setting -> {
+                        val intent = Intent(this@MainActivity, SettingActivity::class.java)
                         startActivity(intent)
                         true
                     }

@@ -12,7 +12,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class MainViewModel: ViewModel() {
+class MainViewModel(): ViewModel() {
 
     private val _listUser = MutableLiveData<List<ItemsItem>>()
     val listUser: LiveData<List<ItemsItem>> = _listUser
@@ -23,6 +23,7 @@ class MainViewModel: ViewModel() {
     companion object {
         private const val TAG = "MainViewModel"
     }
+
     init {
         findGithub("Ophi")
     }
