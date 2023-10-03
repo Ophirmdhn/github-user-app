@@ -1,0 +1,6 @@
+com.ophi.githubuser.test.app-core-1.5.0-0 C:\Users\ophir\.gradle\caches\transforms-3\93354b095d5c53602f1158c15656b2db\transformed\core-1.5.0\res
+com.ophi.githubuser.test.app-annotation-experimental-1.3.0-1 C:\Users\ophir\.gradle\caches\transforms-3\a6c3494cc7f1d2493b25227362e58ee8\transformed\annotation-experimental-1.3.0\res
+com.ophi.githubuser.test.app-androidTest-2 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\generated\res\resValues\androidTest\debug
+com.ophi.githubuser.test.app-mergeDebugAndroidTestResources-3 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.ophi.githubuser.test.app-mergeDebugAndroidTestResources-4 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.ophi.githubuser.test.app-merged_res-5 E:\Pemrograman\Android\Android Fundamental\SubmissionAwal\GitHubUser\app\build\intermediates\merged_res\debugAndroidTest

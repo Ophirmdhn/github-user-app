@@ -1,15 +1,23 @@
 package com.ophi.githubuser.ui
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
-import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.ophi.githubuser.R
 import com.ophi.githubuser.adapter.UserAdapter
 import com.ophi.githubuser.data.response.ItemsItem
 import com.ophi.githubuser.databinding.ActivityMainBinding
 import com.ophi.githubuser.model.MainViewModel
+import com.ophi.githubuser.setting.SettingActivity
+import com.ophi.githubuser.setting.SettingPreferences
+import com.ophi.githubuser.setting.SettingViewModel
+import com.ophi.githubuser.setting.SettingViewModelFactory
+import com.ophi.githubuser.setting.dataStore
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,6 +32,18 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
 
+        val pref = SettingPreferences.getInstance(application.dataStore)
+        val settingViewModel =
+            ViewModelProvider(this, SettingViewModelFactory(pref))[SettingViewModel::class.java]
+
+        settingViewModel.getThemeSettings().observe(this) { isDarkModeActive: Boolean ->
+            if (isDarkModeActive) {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+            } else {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            }
+        }
+
         mainViewModel.listUser.observe(this) { user ->
             setUserData(user)
         }
@@ -35,11 +55,9 @@ class MainActivity : AppCompatActivity() {
         val layoutManager = LinearLayoutManager(this)
         binding.rvUser.layoutManager = layoutManager
 
-        val itemDecoration = DividerItemDecoration(this, layoutManager.orientation)
-        binding.rvUser.addItemDecoration(itemDecoration)
-
         with(binding) {
             searchView.setupWithSearchBar(searchBar)
+            searchBar.inflateMenu(R.menu.option_menu)
             searchView
                 .editText
                 .setOnEditorActionListener { textView, actionId, event ->
@@ -48,6 +66,22 @@ class MainActivity : AppCompatActivity() {
                     mainViewModel.findGithub(searchView.text.toString())
                     false
                 }
+
+            searchBar.setOnMenuItemClickListener { menu ->
+                when(menu.itemId) {
+                    R.id.menu_favorite -> {
+                        val intent = Intent(this@MainActivity, FavoriteActivity::class.java)
+                        startActivity(intent)
+                        true
+                    }
+                    R.id.menu_setting -> {
+                        val intent = Intent(this@MainActivity, SettingActivity::class.java)
+                        startActivity(intent)
+                        true
+                    }
+                    else -> false
+                }
+            }
         }
     }
 

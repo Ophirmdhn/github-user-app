@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Base.Theme.GitHubUser" parent="Theme.Material3.DayNight.NoActionBar">
-        
-        
+    <style name="Base.Theme.GitHubUser" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryContainer">@color/yellow</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
     </style>
     <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat"/>
     <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="Theme.AppCompat"/>
@@ -45,4 +47,7 @@
     <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface" parent="Widget.MaterialComponents.NavigationRailView"/>
     <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="Widget.MaterialComponents.TabLayout"/>
     <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="Widget.MaterialComponents.Toolbar.Surface"/>
+    <style name="searchBar">
+        <item name="android:backgroundTint">@color/grey</item>
+    </style>
 </resources>

@@ -1,12 +1,11 @@
 package com.ophi.githubuser.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ophi.githubuser.adapter.UserAdapter
 import com.ophi.githubuser.data.response.ItemsItem
@@ -15,14 +14,18 @@ import com.ophi.githubuser.model.DetailViewModel
 
 class FollowFragment : Fragment() {
 
-    private lateinit var binding: FragmentFollowBinding
+//    private lateinit var binding: FragmentFollowBinding
+
+    private var _binding: FragmentFollowBinding? = null
+    private val binding get() = _binding!!
+
     private val detailViewModel by viewModels<DetailViewModel>()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentFollowBinding.inflate(inflater, container, false)
+        _binding = FragmentFollowBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -31,9 +34,6 @@ class FollowFragment : Fragment() {
 
         val layoutManager = LinearLayoutManager(requireActivity())
         binding.rvFollowers.layoutManager = layoutManager
-
-        val itemDecoration = DividerItemDecoration(requireActivity(), layoutManager.orientation)
-        binding.rvFollowers.addItemDecoration(itemDecoration)
 
         detailViewModel.isLoadingDetail.observe(viewLifecycleOwner) { loading ->
             showLoading(loading)

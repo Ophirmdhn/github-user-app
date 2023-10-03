@@ -15,7 +15,7 @@ class UserAdapter: ListAdapter<ItemsItem, UserAdapter.MyViewHolder>(DIFF_CALLBAC
 
     class MyViewHolder(private val binding: ItemRowUserBinding): RecyclerView.ViewHolder(binding.root) {
         fun bind(username: ItemsItem) {
-            Glide.with(binding.root.context)
+            Glide.with(binding.root)
                 .load(username.avatarUrl)
                 .into(binding.userPhoto)
             binding.tvUsername.text = username.login

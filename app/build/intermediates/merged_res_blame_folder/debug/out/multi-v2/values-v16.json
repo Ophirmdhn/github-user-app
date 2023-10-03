@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.ophi.githubuser.app-mergeDebugResources-37:/values-v16/values-v16.xml",
+            "outputFile": "com.ophi.githubuser.app-mergeDebugResources-43:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ophir\\.gradle\\caches\\transforms-3\\3c11ddf1f1ffbda5ee4d54edb6c4ee68\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\ophir\\.gradle\\caches\\transforms-3\\ddca58bdc93d9cc17f046e9a6a8555a1\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ophir\\.gradle\\caches\\transforms-3\\26c911d3cf93a7c0e4fcf2c49b0a758c\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\ophir\\.gradle\\caches\\transforms-3\\67560022810b525c781f152660d7c7dd\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
