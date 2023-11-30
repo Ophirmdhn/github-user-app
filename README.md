@@ -15,25 +15,24 @@ Aplikasi Github User merupakan aplikasi berbasis Android dengan menggunakan data
 </div>
 
 ## Screenshots
-<div style="display: flex">
-  <figure>
-    <figcaption>Splash Screen</figcaption>
-    <img src="app/src/main/res/drawable/splash_screen.png" alt="Splash Screen" />
-  </figure>
-  <figure>
-    <figcaption>Main Activity</figcaption>
-    <img src="app/src/main/res/drawable/main_activity.png" alt="Main Activity"/>
-  </figure>
-  <figure>
-    <figcaption>Detail Activity</figcaption>
-    <img src="app/src/main/res/drawable/detail_activity.png" alt="Detail Activity" />
-  </figure>
-  <figure>
-    <figcaption>Favorite Activity</figcaption>
-    <img src="app/src/main/res/drawable/favorite_activity.png" alt="Favorite Activity" />
-  </figure>
-  <figure>
-    <figcaption>Switch Theme Activity</figcaption>
-    <img src="app/src/main/res/drawable/switch_theme.png" alt="Switch Theme" />
-  </figure>
-</div>
+
+<figure>
+  <figcaption>Splash Screen</figcaption>
+  <img src="app/src/main/res/drawable/splash_screen.png" alt="Splash Screen" width="300"/>
+</figure>
+<figure>
+  <figcaption>Main Activity</figcaption>
+  <img src="app/src/main/res/drawable/main_activity.png" alt="Main Activity" width="300"/>
+</figure>
+<figure>
+  <figcaption>Detail Activity</figcaption>
+  <img src="app/src/main/res/drawable/detail_activity.png" alt="Detail Activity" width="300"/>
+</figure>
+<figure>
+  <figcaption>Favorite Activity</figcaption>
+  <img src="app/src/main/res/drawable/favorite_activity.png" alt="Favorite Activity" width="300"/>
+</figure>
+<figure>
+  <figcaption>Switch Theme Activity</figcaption>
+  <img src="app/src/main/res/drawable/switch_theme.png" alt="Switch Theme" width="300"/>
+</figure>
